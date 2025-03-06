@@ -1,0 +1,50 @@
+# 개인 인증 정보 및 중요 설정 파일
+auth_config.py
+credentials.py
+subjects.py
+
+# 런타임 생성 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 로그 및 임시 파일
+*.log
+logs/
+temp/
+*.tmp
+
+# 개발 환경 파일
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 가상 환경
+venv/
+env/
+ENV/
+.env
+.venv
+
+# 데이터베이스 파일
+*.db
+*.sqlite3
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 테스트 관련 파일
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# 기타 불필요한 파일
+*.bak
+*.swp
+*~
